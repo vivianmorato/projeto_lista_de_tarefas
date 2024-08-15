@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color:rgb(255, 255, 255);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+    }
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+button, input {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+    border-style: double;
+    border-color: rgb(82, 173, 150);
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(82, 173, 150);
+    cursor: pointer;
+}
+
+#botao-limpar {
+    background-color: rgb(221, 108, 108);
+    border-color: rgb(221, 108, 108);
+    margin-left: 3px;
+}
+
+#botao-limpar:hover {
+    background-color: rgb(190, 93, 93);
+} 
+button:hover {
+    background-color: rgb(73, 141, 124);
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    color: rgb(48, 48, 48);
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+ul {
+    background-color: rgb(255, 241, 177);
+    border-radius: 5px;
+    margin:auto;
+    width: 600px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.322);
+    padding: 16px;
+    display:none;
+
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
